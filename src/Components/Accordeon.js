@@ -38,7 +38,7 @@ export default function Accordeon() {
             <Fragment>
                 <Accordion open={open === 1} icon={<Icon id={1} open={open} />} animate={customAnimation}>
                     <div className="relative">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/90 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 1 - GT1
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(1)}>
@@ -54,7 +54,7 @@ export default function Accordeon() {
 
                 <Accordion open={open === 2} icon={<Icon id={2} open={open} />} animate={customAnimation}>
                     <div className="relative mt-7">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/90 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 1 - GT2
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(2)}>
@@ -70,7 +70,7 @@ export default function Accordeon() {
 
                 <Accordion open={open === 3} icon={<Icon id={3} open={open} />} animate={customAnimation}>
                     <div className="relative mt-7">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/90 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 1 - GT3
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(3)}>
@@ -86,7 +86,7 @@ export default function Accordeon() {
 
                 <Accordion open={open === 4} icon={<Icon id={4} open={open} />} animate={customAnimation}>
                     <div className="relative mt-7">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/70 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 2 - GT4
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(4)}>
@@ -102,7 +102,7 @@ export default function Accordeon() {
 
                 <Accordion open={open === 5} icon={<Icon id={5} open={open} />} animate={customAnimation}>
                     <div className="relative mt-7">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/70 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 2 - GT5
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(5)}>
@@ -119,7 +119,7 @@ export default function Accordeon() {
 
                 <Accordion open={open === 6} icon={<Icon id={6} open={open} />} animate={customAnimation}>
                     <div className="relative mt-7">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/70 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 2 - GT6
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(6)}>
@@ -135,7 +135,7 @@ export default function Accordeon() {
 
                 <Accordion open={open === 7} icon={<Icon id={7} open={open} />} animate={customAnimation}>
                     <div className="relative mt-7">
-                        <strong className="absolute -top-6 left-0 bg-arianBord/50 rounded px-4 py-1.5 text-[15px] font-medium text-white">
+                        <strong className="absolute -top-6 left-0 bg-arianRed rounded px-4 py-1.5 text-[15px] font-medium text-white">
                             AXE 3
                         </strong>
                         <AccordionHeader className="font-jura text-base font-light text-gray-700" onClick={() => handleOpen(7)}>
