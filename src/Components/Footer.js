@@ -3,75 +3,38 @@ import { ArrowSmallUpIcon } from "@heroicons/react/24/solid";
 export default function Footer() {
     let current_year = new Date().getFullYear()
     return (
-        <footer class="bg-gray-100">
-            <div
-                class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
-            >
-                <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+        <footer className="bg-arianGrayFooter">
+            <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+                <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
                     <a
-                        class="inline-block rounded-full bg-arianBord shadow-md p-2 text-white shadow transition hover:bg-arianBord/80 sm:p-3 lg:p-4"
+                        className="inline-block rounded-full bg-arianRed shadow-md p-2 text-white shadow transition hover:bg-arianRed/80 sm:p-3 lg:p-4"
                         href="#background"
                     >
-                        <span class="sr-only">Back to top</span>
-
+                        <span className="sr-only">Back to top</span>
                         <ArrowSmallUpIcon className="h-5 w-5" strokeWidth={1} />
                     </a>
                 </div>
 
-                <div class="lg:flex lg:items-end lg:justify-between font-jura">
+                <div className="flex justify-center lg:justify-start font-jura">
                     <div>
-                        <div class="flex justify-center text-teal-600 lg:justify-start">
+                        <div className="flex justify-center text-teal-600 lg:justify-start">
                             <img src={process.env.PUBLIC_URL + '/logos/ariane.png'} className="h-16" alt="logo-Ariane" />
                         </div>
                     </div>
-
-                    <ul
-                        class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
-                    >
-                        <li>
-                            <a class="text-gray-700 transition text-xl hover:text-gray-700/75" href="#accueil">
-                                Accueil
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-gray-700 transition text-xl hover:text-gray-700/75" href="#axes">
-                                Les Axes
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-gray-700 transition text-xl hover:text-gray-700/75" href="#agenda">
-                                Agenda
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="text-gray-700 transition text-xl hover:text-gray-700/75" href="#outils">
-                                Les Outils
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="text-gray-700 transition text-xl hover:text-gray-700/75" href="#membres">
-                                Les Membres
-                            </a>
-                        </li>
-                    </ul>
                 </div>
 
-                <div
-                    class="mt-16 border-t border-gray-100 pt-6 sm:flex sm:items-center sm:justify-between"
-                >
-                    <p class="text-center text-sm text-gray-500 sm:text-left">
+                <div className="mt-16 border-t border-gray-400 pt-6 sm:flex sm:items-center sm:justify-between">
+                    <p className="text-center text-sm text-white sm:text-left">
                         Copyright Ariane &copy; {current_year}. All rights reserved.
                     </p>
 
-                    <ul class="mt-4 flex justify-center gap-6 sm:mt-0 sm:justify-start">
+                    <ul className="mt-4 flex justify-center gap-6 sm:mt-0 sm:justify-start">
                         <li>
                             <a
                                 href="https://www.facebook.com/consortium.cahier"
                                 rel="noreferrer"
                                 target="_blank"
-                                class="text-gray-700 transition  hover:text-arianBord"
+                                className="text-white transition hover:text-gray-300"
                             >
                                 <span class="sr-only">Facebook</span>
                                 <svg
@@ -94,9 +57,9 @@ export default function Footer() {
                                 href="/"
                                 rel="noreferrer"
                                 target="_blank"
-                                class="text-gray-700 transition  hover:text-arianBord"
+                                className="text-white transition hover:text-gray-300"
                             >
-                                <span class="sr-only">Instagram</span>
+                                <span className="sr-only">Instagram</span>
                                 <svg
                                     class="h-6 w-6"
                                     fill="currentColor"
@@ -117,9 +80,9 @@ export default function Footer() {
                                 href="https://twitter.com/cstariane"
                                 rel="noreferrer"
                                 target="_blank"
-                                class="text-gray-700 transition  hover:text-arianBord"
+                                className="text-white transition hover:text-gray-300"
                             >
-                                <span class="sr-only">Twitter</span>
+                                <span className="sr-only">Twitter</span>
                                 <svg
                                     class="h-6 w-6"
                                     fill="currentColor"
